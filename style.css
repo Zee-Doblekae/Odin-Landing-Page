@@ -1,6 +1,8 @@
 html, body {
     margin: 0px;
-    }
+}
+
+/* START OF SECTION 1 CSS */
 
 .section-one {
     display: flex;
@@ -80,3 +82,50 @@ html, body {
     width: 500px;
     border: 5px solid rgb(190, 86, 27);
 }
+/* END OF SECTION 1 CSS */
+/* START OF SECTION 2 CSS */
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px 120px 5px;
+}
+
+.section-two h2 {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 50px auto 50px auto;
+    font-weight: bold;
+}
+
+.benefits {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 75px;
+}
+
+.ben {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 175px;
+}
+
+.ben p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.ben-img {
+    display: flex;
+    height: auto;
+    width: 175px;
+    border: 5px solid rgb(190, 86, 27);
+}
+
+/* END OF SECTION 2 CSS */
+/* START OF SECTION 3 CSS */
+
+
