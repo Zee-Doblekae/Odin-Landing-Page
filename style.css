@@ -75,6 +75,7 @@ html, body {
     border-radius: 10px;
     margin-top: 20px;
     max-width: fit-content;
+    border: 2px solid #E5E7EB;
 }
 
 .brain-chip {
@@ -154,7 +155,67 @@ html, body {
 
 .mark {
     display: flex;
-    margin: 0;
+    margin-top: 15px;
     font-weight: bold;
     font-size: 23px;
+}
+/* END OF SECTION 3 CSS */
+/* START OF SECTION 4 CSS */
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.box {
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    padding: 40px 80px;
+    gap: 60px;
+}
+
+.call-action {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-action h4{
+    font-weight: bold;
+    font-size: 23px;
+    margin: 0px;
+    color: #E5E7EB;
+}
+
+.call-action p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.box button {
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 0px auto;
+    height: 40px;
+    width: 100px;
+    align-items: center;
+    justify-content:center;
+    padding: 0;
+}
+/* END OF SECTION 4 CSS */
+/* START OF FOOTER CSS */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px 0px;
 }
